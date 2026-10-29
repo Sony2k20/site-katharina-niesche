@@ -40,9 +40,9 @@ Neu erfassen: `cd tools/capture && npm install && npm run capture` (einzelne Sei
 
 Ob die drei Buchungs-URLs im Neubau einzeln bleiben oder zu einer Buchungsseite zusammengefasst werden (mit Weiterleitungen), entscheiden wir in Phase 4.
 
-### Streichen und weiterleiten – bitte bestätigen
+### Streichen und weiterleiten – bestätigt am 29.10.2026
 
-Alle Inhalte unten sind erkennbar Wix-Vorlagentexte: Sie-Form, generische Coaching-Themen, erfundene Orte, vergangene Termine.
+Alle Inhalte unten sind erkennbar Wix-Vorlagentexte: Sie-Form, generische Coaching-Themen, erfundene Orte, vergangene Termine. Sie werden nicht neu gebaut. Beim Launch (Phase 5) bekommen alle Pfade die angegebene Weiterleitung.
 
 | Pfad | Inhalt | Wix-App | Weiterleitung |
 |---|---|---|---|
