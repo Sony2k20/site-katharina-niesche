@@ -77,7 +77,8 @@ Werkzeug: Built-in-Browser (Text, Links, Screenshots) + `curl` für Sitemaps und
 - Startseite gemeinsam überarbeiten (Ansatzpunkte: Kontrast der Podcast-Pills ~1,9:1, gemischte Fließtext-Schriften, kleines Hero-Foto, fehlende/falsche Links).
 - Daraus: `web/src/styles/tokens.css` (Farben, Typo-Skala, Abstände, Radien, Schatten, Animationen), Komponenten in `web/src/components/` (Button, Eyebrow, Section, Card, NoteCard, Testimonial, TornEdge, Marquee, FormField …), Layout `web/src/layouts/Base.astro` (Header, Footer, SEO, Consent).
 - Lebendes Designsystem: `web/src/pages/styleguide.astro` zeigt alle Bausteine – Prüfstelle für jede spätere Seite.
-- Wiederverwenden aus dem Nachbau: Farbwerte und Maße aus `styles.css`, `assets/img/torn-edge.svg`, Animationswerte (Float-in 1200 ms / 60 px, Grow-in, Reveal, Laufband 53 px/s) aus `index.html`.
+- Wiederverwenden aus dem Nachbau: Farbwerte und Maße aus `styles.css`, Animationswerte (Float-in 1200 ms / 60 px, Grow-in, Reveal, Laufband 53 px/s) aus `index.html`.
+- Nicht übernehmen: Medien aus der Wix-Bibliothek (Stockfoto im Mentoring-Teaser, Papierkanten-Form) – Lizenz nur für Wix-Seiten. Papierkante neu zeichnen, Teaserbild durch eigenes Foto ersetzen.
 - Poppins lokal einbinden (DSGVO), nicht von Google laden.
 
 ### Phase 3 – Inhaltsseiten (ohne Wix-Funktionen)

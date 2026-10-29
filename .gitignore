@@ -9,3 +9,7 @@ Thumbs.db
 # Original images from the Wix media library (large; re-download with tools/capture)
 archive/pages/*/images/
 archive/pages/_capture.log
+
+# Media from the Wix library (licensed for Wix sites only, not for redistribution)
+archive/home-replica/assets/img/mentoring.jpg
+archive/home-replica/assets/img/torn-edge.svg
