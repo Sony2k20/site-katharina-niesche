@@ -2,6 +2,8 @@
 
 Erfasst am 29.10.2026 aus der Live-Seite. Grundlage für Redesign und Neubau in Astro.
 
+Voraussetzungen für den Umstieg auf Wix Headless (eigene Domain, Inhaber:in der Seite, keine Sonderkomponenten) und Tarif: am 29.10.2026 im Wix-Dashboard geprüft und erfüllt.
+
 ## Aufbau des Archivs
 
 ```
