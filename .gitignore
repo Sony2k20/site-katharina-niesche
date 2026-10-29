@@ -5,3 +5,7 @@ dist/
 .env.*
 .DS_Store
 Thumbs.db
+
+# Original images from the Wix media library (large; re-download with tools/capture)
+archive/pages/*/images/
+archive/pages/_capture.log

@@ -1,0 +1,154 @@
+{
+  "path": "/blog",
+  "url": "https://www.katharinaniesche.de/blog",
+  "slug": "blog",
+  "keepCandidate": false,
+  "mobileDiffers": true,
+  "capturedAt": "2026-10-29T09:59:56.922Z",
+  "title": "Blog | Katharina Niesche",
+  "description": null,
+  "canonical": "https://www.katharinaniesche.de/blog",
+  "robots": null,
+  "og": {
+    "title": "Blog | Katharina Niesche",
+    "description": null,
+    "image": null,
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 1725,
+  "headings": [
+    "H1: All Posts",
+    "H2: Erreiche deine Ziele mit Coaching-Methoden",
+    "H2: Wie Coaching dein Leben verändern kann",
+    "H2: Coaching für persönliche Entwicklung und Erfolg"
+  ],
+  "wixApps": [
+    "TPASection"
+  ],
+  "forms": [],
+  "links": [
+    {
+      "text": "All Posts",
+      "href": "https://www.katharinaniesche.de/blog"
+    },
+    {
+      "text": "Erreiche deine Ziele mit Coaching-Methoden",
+      "href": "https://www.katharinaniesche.de/post/erreiche-deine-ziele-mit-coaching-methoden"
+    },
+    {
+      "text": "",
+      "href": "https://www.katharinaniesche.de/profile/katharinaniesche12371/profile"
+    },
+    {
+      "text": "Katharina Niesche",
+      "href": "https://www.katharinaniesche.de/profile/katharinaniesche12371/profile"
+    },
+    {
+      "text": "Wie Coaching dein Leben verändern kann",
+      "href": "https://www.katharinaniesche.de/post/wie-coaching-dein-leben-ver%C3%A4ndern-kann"
+    },
+    {
+      "text": "Coaching für persönliche Entwicklung und Erfolg",
+      "href": "https://www.katharinaniesche.de/post/coaching-f%C3%BCr-pers%C3%B6nliche-entwicklung-und-erfolg"
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "id": "88408d_d371b005064842c399f8035da45d5a93~mv2.png",
+      "original": "https://static.wixstatic.com/media/88408d_d371b005064842c399f8035da45d5a93~mv2.png",
+      "alt": "Erreiche deine Ziele mit Coaching-Methoden",
+      "kind": "image",
+      "shownAt": [
+        454,
+        341
+      ]
+    },
+    {
+      "id": "88408d_1ef2ffbd262c4249972c53bfd0f8a14b~mv2.png",
+      "original": "https://static.wixstatic.com/media/88408d_1ef2ffbd262c4249972c53bfd0f8a14b~mv2.png",
+      "alt": "Wie Coaching dein Leben verändern kann",
+      "kind": "image",
+      "shownAt": [
+        454,
+        341
+      ]
+    },
+    {
+      "id": "88408d_17da2526c81f4883b73b178431960a2e~mv2.png",
+      "original": "https://static.wixstatic.com/media/88408d_17da2526c81f4883b73b178431960a2e~mv2.png",
+      "alt": "Coaching für persönliche Entwicklung und Erfolg",
+      "kind": "image",
+      "shownAt": [
+        454,
+        341
+      ]
+    }
+  ],
+  "jsonLd": [],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "path": "/event-list",
+  "url": "https://www.katharinaniesche.de/event-list",
+  "slug": "event-list",
+  "keepCandidate": false,
+  "mobileDiffers": true,
+  "capturedAt": "2026-10-29T10:03:14.087Z",
+  "title": "Veranstaltungen | Katharina Niesche",
+  "description": null,
+  "canonical": "https://www.katharinaniesche.de/event-list",
+  "robots": null,
+  "og": {
+    "title": "Veranstaltungen | Katharina Niesche",
+    "description": null,
+    "image": null,
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 1056,
+  "headings": [
+    "H1: Bevorstehende Veranstaltungen"
+  ],
+  "wixApps": [
+    "TPASection"
+  ],
+  "forms": [],
+  "links": [
+    {
+      "text": "WE ARE WORTHY RETREAT",
+      "href": "https://www.katharinaniesche.de/event-details/we-are-worthy-retreat"
+    },
+    {
+      "text": "",
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https://www.katharinaniesche.de/event-details/we-are-worthy-retreat&quote=Diese%20Veranstaltung%20jetzt%20ansehen%20und%20teilnehmen."
+    },
+    {
+      "text": "",
+      "href": "https://twitter.com/intent/tweet?url=https://www.katharinaniesche.de/event-details/we-are-worthy-retreat&text=Diese%20Veranstaltung%20jetzt%20ansehen%20und%20teilnehmen."
+    },
+    {
+      "text": "",
+      "href": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.katharinaniesche.de%2Fevent-details%2Fwe-are-worthy-retreat"
+    },
+    {
+      "text": "Details",
+      "href": "https://www.katharinaniesche.de/event-details/we-are-worthy-retreat"
+    }
+  ],
+  "videos": [],
+  "images": [],
+  "jsonLd": [],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}

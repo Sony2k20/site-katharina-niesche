@@ -1,0 +1,104 @@
+{
+  "path": "/impressum",
+  "url": "https://www.katharinaniesche.de/impressum",
+  "slug": "impressum",
+  "keepCandidate": true,
+  "mobileDiffers": false,
+  "capturedAt": "2026-10-29T10:02:06.511Z",
+  "title": "Impressum | Katharina Niesche",
+  "description": null,
+  "canonical": "https://www.katharinaniesche.de/impressum",
+  "robots": null,
+  "og": {
+    "title": "Impressum | Katharina Niesche",
+    "description": null,
+    "image": null,
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 2312,
+  "headings": [
+    "H1: IMPRESSUM",
+    "H2: Angaben gemäß § 5 DDG",
+    "H2: Kontakt",
+    "H2: Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
+    "H2: Haftung für Inhalte",
+    "H2: Haftung für Links",
+    "H2: Urheberrecht"
+  ],
+  "wixApps": [],
+  "forms": [],
+  "links": [
+    {
+      "text": "coaching@katharinaniesche.de",
+      "href": "mailto:coaching@katharinaniesche.de"
+    }
+  ],
+  "videos": [],
+  "images": [],
+  "jsonLd": [],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "path": "/guide",
+  "url": "https://www.katharinaniesche.de/guide",
+  "slug": "guide",
+  "keepCandidate": true,
+  "mobileDiffers": false,
+  "capturedAt": "2026-10-29T10:02:44.295Z",
+  "title": "Kostenloser Guide: Dein Instagram aus Sicht deiner Wunschkundin",
+  "description": "9 Stationen von Bio bis Story, mit Selbstcheck und Arbeitsfeldern: Hol dir den kostenlosen Instagram-Guide für Coaches direkt per Mail.",
+  "canonical": "https://www.katharinaniesche.de/guide",
+  "robots": null,
+  "og": {
+    "title": "Kostenloser Guide: Dein Instagram aus Sicht deiner Wunschkundin",
+    "description": "9 Stationen von Bio bis Story, mit Selbstcheck und Arbeitsfeldern: Hol dir den kostenlosen Instagram-Guide für Coaches direkt per Mail.",
+    "image": null,
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 1178,
+  "headings": [
+    "H1: Warum ich dir folge und buche",
+    "H2: Hol dir deinen Guide"
+  ],
+  "wixApps": [],
+  "forms": [
+    {
+      "fields": [
+        {
+          "type": "text",
+          "label": "Vorname*",
+          "required": true
+        },
+        {
+          "type": "email",
+          "label": "E-Mail-Adresse*",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "label": "Ja, schick mir den Guide und ab und zu Impulse, Podcastfolgen und Termine per Mail. Abmelden geht jederzeit. Mehr dazu in meiner Datenschutzerklärung.*",
+          "required": true
+        }
+      ],
+      "submit": "Guide per Mail erhalten"
+    }
+  ],
+  "links": [
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    }
+  ],
+  "videos": [
+    {
+      "src": "https://video.wixstatic.com/video/88408d_aebb2d61775f41aeb31c0e3a2261df1d/360p/mp4/file.mp4",
+      "poster": ""
+    }
+  ],
+  "images": [
+    {
+      "id": "88408d_aebb2d61775f41aeb31c0e3a2261df1df000.jpg",
+      "original": "https://static.wixstatic.com/media/88408d_aebb2d61775f41aeb31c0e3a2261df1df000.jpg",
+      "alt": "",
+      "kind": "background",
+      "shownAt": [
+        408,
+        408
+      ]
+    }
+  ],
+  "jsonLd": [],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}

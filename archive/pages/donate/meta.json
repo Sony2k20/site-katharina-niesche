@@ -1,0 +1,117 @@
+{
+  "path": "/donate",
+  "url": "https://www.katharinaniesche.de/donate",
+  "slug": "donate",
+  "keepCandidate": false,
+  "mobileDiffers": false,
+  "capturedAt": "2026-10-29T10:03:31.937Z",
+  "title": "Spenden | Katharina Niesche",
+  "description": null,
+  "canonical": "https://www.katharinaniesche.de/donate",
+  "robots": null,
+  "og": {
+    "title": "Spenden | Katharina Niesche",
+    "description": null,
+    "image": null,
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 1229,
+  "headings": [
+    "H1: Jede Spende zählt"
+  ],
+  "wixApps": [],
+  "forms": [],
+  "links": [
+    {
+      "text": "",
+      "href": "https://facebook.com/sharer/sharer.php?u=https://www.katharinaniesche.de/donate"
+    },
+    {
+      "text": "",
+      "href": "https://twitter.com/intent/tweet?url=https://www.katharinaniesche.de/donate"
+    },
+    {
+      "text": "",
+      "href": "https://api.whatsapp.com/send/?phone&text=https://www.katharinaniesche.de/donate"
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "id": "22e53e_065eb0f4781b47f28293ae0c0430fa42~mv2.png",
+      "original": "https://static.wixstatic.com/media/22e53e_065eb0f4781b47f28293ae0c0430fa42~mv2.png",
+      "alt": "",
+      "kind": "background",
+      "shownAt": [
+        720,
+        840
+      ]
+    }
+  ],
+  "jsonLd": [],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "path": "/event-details/zukunft-des-coachings-strategien-fur-2025",
+  "url": "https://www.katharinaniesche.de/event-details/zukunft-des-coachings-strategien-fur-2025",
+  "slug": "event-details--zukunft-des-coachings-strategien-fur-2025",
+  "keepCandidate": false,
+  "mobileDiffers": true,
+  "capturedAt": "2026-10-29T10:00:32.209Z",
+  "title": "Zukunft des Coachings: Strategien für 2025 | Katharina Niesche",
+  "description": "Entdecken Sie innovative Coaching-Techniken und -Strategien.",
+  "canonical": "https://www.katharinaniesche.de/event-details/zukunft-des-coachings-strategien-fur-2025",
+  "robots": "index",
+  "og": {
+    "title": "Zukunft des Coachings: Strategien für 2025 | Katharina Niesche",
+    "description": "Entdecken Sie innovative Coaching-Techniken und -Strategien.",
+    "image": "https://static.wixstatic.com/media/88408d_997e226fade345089b9c72beda890912~mv2.png/v1/fill/w_1344,h_768,al_c/88408d_997e226fade345089b9c72beda890912~mv2.png",
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 1975,
+  "headings": [
+    "H1: Zukunft des Coachings: Strategien für 2025",
+    "H2: Zeit & Ort",
+    "H2: Über die Veranstaltung",
+    "H2: Diese Veranstaltung teilen"
+  ],
+  "wixApps": [
+    "TPAMultiSection"
+  ],
+  "forms": [],
+  "links": [
+    {
+      "text": "Jetzt andere Veranstaltungen ansehen",
+      "href": "https://www.katharinaniesche.de/event-list"
+    },
+    {
+      "text": "",
+      "href": "https://twitter.com/intent/tweet?url=https://www.katharinaniesche.de/event-details/zukunft-des-coachings-strategien-fur-2025&text=Diese%20Veranstaltung%20jetzt%20ansehen%20und%20teilnehmen."
+    },
+    {
+      "text": "",
+      "href": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.katharinaniesche.de%2Fevent-details%2Fzukunft-des-coachings-strategien-fur-2025"
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "id": "88408d_997e226fade345089b9c72beda890912~mv2.png",
+      "original": "https://static.wixstatic.com/media/88408d_997e226fade345089b9c72beda890912~mv2.png",
+      "alt": "Zukunft des Coachings: Strategien für 2025",
+      "kind": "background",
+      "shownAt": [
+        979,
+        552
+      ]
+    }
+  ],
+  "jsonLd": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Zukunft des Coachings: Strategien für 2025",
+      "description": "Entdecken Sie innovative Coaching-Techniken und -Strategien.",
+      "startDate": "2026-08-18T09:47:27+02:00",
+      "endDate": "2026-08-18T11:47:27+02:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "url": "https://www.katharinaniesche.de/event-details/zukunft-des-coachings-strategien-fur-2025",
+        "name": "Conference Hall Berlin",
+        "address": "Friedrichstraße 123, 10117 Berlin, Deutschland"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://static.wixstatic.com/media/88408d_997e226fade345089b9c72beda890912~mv2.png/v1/fill/w_1344,h_768,al_c/88408d_997e226fade345089b9c72beda890912~mv2.png",
+        "width": "1344",
+        "height": "768"
+      }
+    }
+  ],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "path": "/linktree",
+  "url": "https://www.katharinaniesche.de/linktree",
+  "slug": "linktree",
+  "keepCandidate": true,
+  "mobileDiffers": false,
+  "capturedAt": "2026-10-29T10:01:40.743Z",
+  "title": "Linktree | Katharina Niesche",
+  "description": null,
+  "canonical": "https://www.katharinaniesche.de/linktree",
+  "robots": null,
+  "og": {
+    "title": "Linktree | Katharina Niesche",
+    "description": null,
+    "image": null,
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 1210,
+  "headings": [
+    "H1: Katharina Niesche"
+  ],
+  "wixApps": [],
+  "forms": [],
+  "links": [
+    {
+      "text": "",
+      "href": "https://www.instagram.com/katharinaniesche"
+    },
+    {
+      "text": "",
+      "href": "https://www.tiktok.com/@katharinaniesche"
+    },
+    {
+      "text": "",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=f0f5e70acf4245bc"
+    },
+    {
+      "text": "",
+      "href": "https://www.youtube.com/@KatharinaNiesche/podcasts"
+    },
+    {
+      "text": "",
+      "href": "https://podcasts.apple.com/de/podcast/love-yourself-speak-yourself/id1783864488"
+    },
+    {
+      "text": "WE ARE WORTHY RETREAT",
+      "href": "https://drive.google.com/file/d/1MYcPs14KcWfKIjqhDV4vJE6Mmx-DE5-p/view?usp=sharing"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Website",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&igsi=OGFrM3hwOGwzaDdp&utm_source=qr"
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "id": "88408d_4071a54306544453a8b82af026b39ef2~mv2.jpg",
+      "original": "https://static.wixstatic.com/media/88408d_4071a54306544453a8b82af026b39ef2~mv2.jpg",
+      "alt": "IMG_1764_edited_edited.jpg",
+      "kind": "image",
+      "shownAt": [
+        1370,
+        257
+      ]
+    },
+    {
+      "id": "88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg",
+      "original": "https://static.wixstatic.com/media/88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg",
+      "alt": "IMG_7657_edited_edited_edited.jpg",
+      "kind": "image",
+      "shownAt": [
+        348,
+        344
+      ]
+    }
+  ],
+  "jsonLd": [],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}

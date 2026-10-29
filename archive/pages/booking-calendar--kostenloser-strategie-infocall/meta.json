@@ -1,0 +1,98 @@
+{
+  "path": "/booking-calendar/kostenloser-strategie-infocall",
+  "url": "https://www.katharinaniesche.de/booking-calendar/kostenloser-strategie-infocall",
+  "slug": "booking-calendar--kostenloser-strategie-infocall",
+  "keepCandidate": true,
+  "mobileDiffers": true,
+  "capturedAt": "2026-10-29T10:03:40.263Z",
+  "title": "Kostenloser Strategie-Infocall - Katharina Niesche",
+  "description": null,
+  "canonical": "https://www.katharinaniesche.de/booking-calendar/kostenloser-strategie-infocall",
+  "robots": "noindex",
+  "og": {
+    "title": "Kostenloser Strategie-Infocall",
+    "description": null,
+    "image": null,
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 1060,
+  "headings": [
+    "H1: Dein Strategie - Infocall",
+    "H2: Datum und Uhrzeit wählen",
+    "H2: Servicedetails",
+    "H3: Weitere Infos"
+  ],
+  "wixApps": [
+    "TPAMultiSection"
+  ],
+  "forms": [],
+  "links": [],
+  "videos": [],
+  "images": [],
+  "jsonLd": [],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}

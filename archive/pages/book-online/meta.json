@@ -1,0 +1,113 @@
+{
+  "path": "/book-online",
+  "url": "https://www.katharinaniesche.de/book-online",
+  "slug": "book-online",
+  "keepCandidate": true,
+  "mobileDiffers": false,
+  "capturedAt": "2026-10-29T10:01:32.956Z",
+  "title": "Online buchen | Katharina Niesche",
+  "description": null,
+  "canonical": "https://www.katharinaniesche.de/book-online",
+  "robots": null,
+  "og": {
+    "title": "Online buchen | Katharina Niesche",
+    "description": null,
+    "image": null,
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 954,
+  "headings": [
+    "H1: Unsere Services",
+    "H2: Kostenloser Strategie-Infocall"
+  ],
+  "wixApps": [
+    "TPASection"
+  ],
+  "forms": [],
+  "links": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "",
+      "href": "https://www.katharinaniesche.de/booking-calendar/kostenloser-strategie-infocall-1"
+    },
+    {
+      "text": "Kostenloser Strategie-Infocall",
+      "href": "https://www.katharinaniesche.de/booking-calendar/kostenloser-strategie-infocall-1"
+    },
+    {
+      "text": "Buchen",
+      "href": "https://www.katharinaniesche.de/booking-calendar/kostenloser-strategie-infocall-1"
+    }
+  ],
+  "videos": [],
+  "images": [],
+  "jsonLd": [],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}

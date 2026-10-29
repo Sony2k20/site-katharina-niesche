@@ -1,0 +1,167 @@
+{
+  "path": "/profile/katharinaniesche12371/profile",
+  "url": "https://www.katharinaniesche.de/profile/katharinaniesche12371/profile",
+  "slug": "profile--katharinaniesche12371--profile",
+  "keepCandidate": false,
+  "mobileDiffers": true,
+  "capturedAt": "2026-10-29T09:58:29.500Z",
+  "title": "Profil | Katharina Niesche",
+  "description": null,
+  "canonical": "https://www.katharinaniesche.de/profile/katharinaniesche12371/profile",
+  "robots": "index",
+  "og": {
+    "title": "Profil | Katharina Niesche",
+    "description": null,
+    "image": null,
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 1473,
+  "headings": [
+    "H1: Katharina Niesche",
+    "H2: Profil",
+    "H3: Beiträge"
+  ],
+  "wixApps": [],
+  "forms": [],
+  "links": [
+    {
+      "text": "Profil",
+      "href": "https://www.katharinaniesche.de/profile/katharinaniesche12371/profile?disableScrollToTop=true"
+    },
+    {
+      "text": "18. Juli 2026 ∙ 4 Min. Erreiche deine Ziele mit Coaching-Methoden Coaching ist mehr als nur ein Trend; es ist eine bewährte Methode, um persönliche und berufliche Ziele zu erreichen. In einer Welt, die ständig im Wandel ist, suchen viele Menschen nach Wegen, ihre Träume zu verwirklichen und ihre Potenziale auszuschöpfen. Coaching-Methoden bieten eine strukturierte Herangehensweise, um diese Ziele zu erreichen. In diesem Blogbeitrag werden wir verschiedene Coaching-Methoden erkunden, die dir helfen können, deine Ziele zu definieren, zu planen und... 0 0",
+      "href": "https://www.katharinaniesche.de/post/erreiche-deine-ziele-mit-coaching-methoden"
+    },
+    {
+      "text": "18. Juli 2026 ∙ 4 Min. Wie Coaching dein Leben verändern kann Coaching ist mehr als nur ein Trend. Es ist eine transformative Erfahrung, die Menschen dabei hilft, ihre Ziele zu erreichen, persönliche Hürden zu überwinden und ein erfüllteres Leben zu führen. In diesem Blogbeitrag werden wir die verschiedenen Aspekte des Coachings beleuchten und aufzeigen, wie es dein Leben nachhaltig verändern kann. Was ist Coaching? Coaching ist ein individueller Prozess, bei dem ein Coach mit einem Klienten zusammenarbeitet, um dessen persönliche und berufliche Ziele... 1 0",
+      "href": "https://www.katharinaniesche.de/post/wie-coaching-dein-leben-ver%C3%A4ndern-kann"
+    },
+    {
+      "text": "18. Juli 2026 ∙ 4 Min. Coaching für persönliche Entwicklung und Erfolg Coaching ist ein kraftvolles Werkzeug, das Menschen dabei unterstützt, ihre persönlichen und beruflichen Ziele zu erreichen. In einer Welt, die sich ständig verändert, ist es entscheidend, sich selbst weiterzuentwickeln und die eigenen Fähigkeiten zu verbessern. Coaching bietet nicht nur Unterstützung, sondern auch Strategien, um Herausforderungen zu meistern und den eigenen Erfolg zu fördern. In diesem Artikel werden wir die verschiedenen Aspekte des Coachings für persönliche Entwicklung und... 1 0",
+      "href": "https://www.katharinaniesche.de/post/coaching-f%C3%BCr-pers%C3%B6nliche-entwicklung-und-erfolg"
+    }
+  ],
+  "videos": [],
+  "images": [],
+  "jsonLd": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "height": "576",
+          "width": "1024",
+          "url": "https://static.wixstatic.com/media/88408d_d371b005064842c399f8035da45d5a93~mv2.png"
+        },
+        {
+          "@type": "ImageObject",
+          "height": "576",
+          "width": "1024",
+          "url": "https://static.wixstatic.com/media/88408d_1ef2ffbd262c4249972c53bfd0f8a14b~mv2.png"
+        },
+        {
+          "@type": "ImageObject",
+          "height": "576",
+          "width": "1024",
+          "url": "https://static.wixstatic.com/media/88408d_17da2526c81f4883b73b178431960a2e~mv2.png"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "dateCreated": "2026-07-18T07:42:17.000Z",
+      "mainEntity": {
+        "@type": "Person",
+        "id": "https://www.katharinaniesche.de/profile/katharinaniesche12371/profile",
+        "name": "Katharina Niesche",
+        "image": "https://lh3.googleusercontent.com/a/ACg8ocL6BeJ0CM0VQ1zcUwsfqWF4Qf1fndQ_kGdLwKL9-s6_uTe4XgU%3Ds96-c"
+      },
+      "hasPart": [
+        {
+          "@type": "Article",
+          "headline": "Erreiche deine Ziele mit Coaching-Methoden",
+          "url": "https://www.katharinaniesche.de/post/erreiche-deine-ziele-mit-coaching-methoden",
+          "datePublished": "2026-07-18T07:47:40.377Z"
+        },
+        {
+          "@type": "Article",
+          "headline": "Wie Coaching dein Leben verändern kann",
+          "url": "https://www.katharinaniesche.de/post/wie-coaching-dein-leben-verändern-kann",
+          "datePublished": "2026-07-18T07:47:38.028Z"
+        },
+        {
+          "@type": "Article",
+          "headline": "Coaching für persönliche Entwicklung und Erfolg",
+          "url": "https://www.katharinaniesche.de/post/coaching-für-persönliche-entwicklung-und-erfolg",
+          "datePublished": "2026-07-18T07:47:33.958Z"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+[
+  {
+    "path": "/profile/katharinaniesche12371/profile",
+    "slug": "profile--katharinaniesche12371--profile",
+    "title": "Profil | Katharina Niesche",
+    "keep": false,
+    "images": 0,
+    "wixApps": [],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/challenge-page/0801a3df-f95c-463f-9afa-a61ca5b837a5",
+    "slug": "challenge-page--0801a3df-f95c-463f-9afa-a61ca5b837a5",
+    "title": "Beruflicher Aufstieg durch gezieltes Mindset-Training | Katharina Niesche",
+    "keep": false,
+    "images": 1,
+    "wixApps": [
+      "TPAMultiSection"
+    ],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/challenge-page/bdb3b156-5684-4a79-ab62-5e6fe2002c25",
+    "slug": "challenge-page--bdb3b156-5684-4a79-ab62-5e6fe2002c25",
+    "title": "Meistere dein Leben: Coaching für innere Stärke | Katharina Niesche",
+    "keep": false,
+    "images": 1,
+    "wixApps": [
+      "TPAMultiSection"
+    ],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/challenge-page/fa5c574d-a154-476a-aed0-701f3e14f454",
+    "slug": "challenge-page--fa5c574d-a154-476a-aed0-701f3e14f454",
+    "title": "Der Weg zur Selbstverwirklichung: Strategien und Methoden | Katharina Niesche",
+    "keep": false,
+    "images": 1,
+    "wixApps": [
+      "TPAMultiSection"
+    ],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/post/erreiche-deine-ziele-mit-coaching-methoden",
+    "slug": "post--erreiche-deine-ziele-mit-coaching-methoden",
+    "title": "Erreiche deine Ziele mit Coaching-Methoden",
+    "keep": false,
+    "images": 3,
+    "wixApps": [
+      "TPAMultiSection"
+    ],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/post/wie-coaching-dein-leben-ver%C3%A4ndern-kann",
+    "slug": "post--wie-coaching-dein-leben-veraendern-kann",
+    "title": "Wie Coaching dein Leben verändern kann",
+    "keep": false,
+    "images": 3,
+    "wixApps": [
+      "TPAMultiSection"
+    ],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/post/coaching-f%C3%BCr-pers%C3%B6nliche-entwicklung-und-erfolg",
+    "slug": "post--coaching-fuer-persoenliche-entwicklung-und-erfolg",
+    "title": "Coaching für persönliche Entwicklung und Erfolg",
+    "keep": false,
+    "images": 3,
+    "wixApps": [
+      "TPAMultiSection"
+    ],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/blog",
+    "slug": "blog",
+    "title": "Blog | Katharina Niesche",
+    "keep": false,
+    "images": 3,
+    "wixApps": [
+      "TPASection"
+    ],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/event-details/we-are-worthy-retreat",
+    "slug": "event-details--we-are-worthy-retreat",
+    "title": "WE ARE WORTHY RETREAT | Katharina Niesche",
+    "keep": false,
+    "images": 1,
+    "wixApps": [
+      "TPAMultiSection"
+    ],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/event-details/einblicke-in-effektives-selbstmanagement",
+    "slug": "event-details--einblicke-in-effektives-selbstmanagement",
+    "title": "Einblicke in effektives Selbstmanagement | Katharina Niesche",
+    "keep": false,
+    "images": 1,
+    "wixApps": [
+      "TPAMultiSection"
+    ],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/event-details/zukunft-des-coachings-strategien-fur-2025",
+    "slug": "event-details--zukunft-des-coachings-strategien-fur-2025",
+    "title": "Zukunft des Coachings: Strategien für 2025 | Katharina Niesche",
+    "keep": false,
+    "images": 1,
+    "wixApps": [
+      "TPAMultiSection"
+    ],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/event-details/netzwerkabend-fur-coaching-professionals",
+    "slug": "event-details--netzwerkabend-fur-coaching-professionals",
+    "title": "Netzwerkabend für Coaching-Professionals | Katharina Niesche",
+    "keep": false,
+    "images": 1,
+    "wixApps": [
+      "TPAMultiSection"
+    ],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/service-page/kostenloser-strategie-infocall-1",
+    "slug": "service-page--kostenloser-strategie-infocall-1",
+    "title": "Kostenloser Strategie-Infocall | Katharina Niesche",
+    "keep": true,
+    "images": 1,
+    "wixApps": [
+      "TPAMultiSection"
+    ],
+    "forms": 0,
+    "mobileDiffers": false
+  },
+  {
+    "path": "/pricing-plans/plans-pricing",
+    "slug": "pricing-plans--plans-pricing",
+    "title": "Preispläne & Preise | Katharina Niesche",
+    "keep": false,
+    "images": 0,
+    "wixApps": [
+      "TPASection"
+    ],
+    "forms": 0,
+    "mobileDiffers": false
+  },
+  {
+    "path": "/veranstaltungen",
+    "slug": "veranstaltungen",
+    "title": "WE ARE WORTHY Retreat und Workshops | Katharina Niesche",
+    "keep": true,
+    "images": 9,
+    "wixApps": [],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/1-1-business-aufbau",
+    "slug": "1-1-business-aufbau",
+    "title": "Business is Calling: 1:1 Mentoring für Coaches | Katharina Niesche",
+    "keep": true,
+    "images": 10,
+    "wixApps": [],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/book-online",
+    "slug": "book-online",
+    "title": "Online buchen | Katharina Niesche",
+    "keep": true,
+    "images": 0,
+    "wixApps": [
+      "TPASection"
+    ],
+    "forms": 0,
+    "mobileDiffers": false
+  },
+  {
+    "path": "/linktree",
+    "slug": "linktree",
+    "title": "Linktree | Katharina Niesche",
+    "keep": true,
+    "images": 2,
+    "wixApps": [],
+    "forms": 0,
+    "mobileDiffers": false
+  },
+  {
+    "path": "/",
+    "slug": "home",
+    "title": "Business Mentorin für Coaches | Katharina Niesche",
+    "keep": true,
+    "images": 13,
+    "wixApps": [],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/impressum",
+    "slug": "impressum",
+    "title": "Impressum | Katharina Niesche",
+    "keep": true,
+    "images": 0,
+    "wixApps": [],
+    "forms": 0,
+    "mobileDiffers": false
+  },
+  {
+    "path": "/donation-thank-you-page",
+    "slug": "donation-thank-you-page",
+    "title": "Bestätigungsseite | Katharina Niesche",
+    "keep": false,
+    "images": 0,
+    "wixApps": [],
+    "forms": 0,
+    "mobileDiffers": false
+  },
+  {
+    "path": "/ueber-mich",
+    "slug": "ueber-mich",
+    "title": "Über mich: Katharina Niesche, Business Mentorin für Coaches",
+    "keep": true,
+    "images": 9,
+    "wixApps": [],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/guide",
+    "slug": "guide",
+    "title": "Kostenloser Guide: Dein Instagram aus Sicht deiner Wunschkundin",
+    "keep": true,
+    "images": 1,
+    "wixApps": [],
+    "forms": 1,
+    "mobileDiffers": false
+  },
+  {
+    "path": "/datenschutz",
+    "slug": "datenschutz",
+    "title": "Datenschutz | Katharina Niesche",
+    "keep": true,
+    "images": 0,
+    "wixApps": [],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/event-list",
+    "slug": "event-list",
+    "title": "Veranstaltungen | Katharina Niesche",
+    "keep": false,
+    "images": 0,
+    "wixApps": [
+      "TPASection"
+    ],
+    "forms": 0,
+    "mobileDiffers": true
+  },
+  {
+    "path": "/challenges",
+    "slug": "challenges",
+    "title": "Programmliste | Katharina Niesche",
+    "keep": false,
+    "images": 0,
+    "wixApps": [
+      "TPASection"
+    ],
+    "forms": 0,
+    "mobileDiffers": false
+  },
+  {
+    "path": "/donate",
+    "slug": "donate",
+    "title": "Spenden | Katharina Niesche",
+    "keep": false,
+    "images": 1,
+    "wixApps": [],
+    "forms": 0,
+    "mobileDiffers": false
+  },
+  {
+    "path": "/booking-calendar/kostenloser-strategie-infocall",
+    "slug": "booking-calendar--kostenloser-strategie-infocall",
+    "title": "Kostenloser Strategie-Infocall - Katharina Niesche",
+    "keep": true,
+    "images": 0,
+    "wixApps": [
+      "TPAMultiSection"
+    ],
+    "forms": 0,
+    "mobileDiffers": true
+  }
+]

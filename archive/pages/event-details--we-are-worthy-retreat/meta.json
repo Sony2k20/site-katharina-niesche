@@ -1,0 +1,145 @@
+{
+  "path": "/event-details/we-are-worthy-retreat",
+  "url": "https://www.katharinaniesche.de/event-details/we-are-worthy-retreat",
+  "slug": "event-details--we-are-worthy-retreat",
+  "keepCandidate": false,
+  "mobileDiffers": true,
+  "capturedAt": "2026-10-29T10:00:07.419Z",
+  "title": "WE ARE WORTHY RETREAT | Katharina Niesche",
+  "description": "4 Tage,\ndie dich daran erinnern,\ndass dein Wert niemals\nvon deiner Leistung abhängt.",
+  "canonical": "https://www.katharinaniesche.de/event-details/we-are-worthy-retreat",
+  "robots": "index",
+  "og": {
+    "title": "WE ARE WORTHY RETREAT | Katharina Niesche",
+    "description": "4 Tage,\ndie dich daran erinnern,\ndass dein Wert niemals\nvon deiner Leistung abhängt.",
+    "image": "https://static.wixstatic.com/media/88408d_cbb4d6a4a92647d6846b038a9815c672~mv2.png/v1/fill/w_1903,h_1405,al_c/88408d_cbb4d6a4a92647d6846b038a9815c672~mv2.png",
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 2129,
+  "headings": [
+    "H1: WE ARE WORTHY RETREAT",
+    "H2: Zeit & Ort",
+    "H2: Über die Veranstaltung",
+    "H2: Diese Veranstaltung teilen"
+  ],
+  "wixApps": [
+    "TPAMultiSection"
+  ],
+  "forms": [],
+  "links": [
+    {
+      "text": "Jetzt andere Veranstaltungen ansehen",
+      "href": "https://www.katharinaniesche.de/event-list"
+    },
+    {
+      "text": "",
+      "href": "https://twitter.com/intent/tweet?url=https://www.katharinaniesche.de/event-details/we-are-worthy-retreat&text=Diese%20Veranstaltung%20jetzt%20ansehen%20und%20teilnehmen."
+    },
+    {
+      "text": "",
+      "href": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.katharinaniesche.de%2Fevent-details%2Fwe-are-worthy-retreat"
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "id": "88408d_cbb4d6a4a92647d6846b038a9815c672~mv2.png",
+      "original": "https://static.wixstatic.com/media/88408d_cbb4d6a4a92647d6846b038a9815c672~mv2.png",
+      "alt": "WE ARE WORTHY RETREAT",
+      "kind": "background",
+      "shownAt": [
+        979,
+        552
+      ]
+    }
+  ],
+  "jsonLd": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "WE ARE WORTHY RETREAT",
+      "description": "4 Tage,\ndie dich daran erinnern,\ndass dein Wert niemals\nvon deiner Leistung abhängt.",
+      "startDate": "2027-03-07T17:00:00+01:00",
+      "endDate": "2027-03-10T12:00:00+01:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "url": "https://www.katharinaniesche.de/event-details/we-are-worthy-retreat",
+        "name": "Reichenbach",
+        "address": "Reichenbach, Deutschland"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://static.wixstatic.com/media/88408d_cbb4d6a4a92647d6846b038a9815c672~mv2.png/v1/fill/w_1903,h_1405,al_c/88408d_cbb4d6a4a92647d6846b038a9815c672~mv2.png",
+        "width": "1903",
+        "height": "1405"
+      }
+    }
+  ],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}

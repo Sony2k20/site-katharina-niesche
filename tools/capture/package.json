@@ -1,0 +1,12 @@
+{
+  "name": "capture",
+  "private": true,
+  "type": "module",
+  "description": "Captures the live Wix site into archive/pages (texts, metadata, screenshots, original images)",
+  "scripts": {
+    "capture": "node capture.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "1.48.2"
+  }
+}

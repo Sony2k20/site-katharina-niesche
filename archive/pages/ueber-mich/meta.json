@@ -1,0 +1,202 @@
+{
+  "path": "/ueber-mich",
+  "url": "https://www.katharinaniesche.de/ueber-mich",
+  "slug": "ueber-mich",
+  "keepCandidate": true,
+  "mobileDiffers": true,
+  "capturedAt": "2026-10-29T10:02:37.571Z",
+  "title": "Über mich: Katharina Niesche, Business Mentorin für Coaches",
+  "description": "Von der Bank über einen schweren Unfall zum eigenen Coaching-Business. Meine Story und warum ich heute Coaches beim Aufbau ihres Business begleite.",
+  "canonical": "https://www.katharinaniesche.de/ueber-mich",
+  "robots": null,
+  "og": {
+    "title": "Über mich: Katharina Niesche, Business Mentorin für Coaches",
+    "description": "Von der Bank über einen schweren Unfall zum eigenen Coaching-Business. Meine Story und warum ich heute Coaches beim Aufbau ihres Business begleite.",
+    "image": null,
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 6125,
+  "headings": [
+    "H1: Hey, / ich bin / Katharina.",
+    "H1: Hier erfährst du, wie aus einem / Unfall meine Berufung wurde.",
+    "H1: Die Bank.",
+    "H1: Der Unfall.",
+    "H2: „War das jetzt mein Leben?“",
+    "H1: Die Pause.",
+    "H1: Der Neustart.",
+    "H1: Warum ich das tue.",
+    "H2: Du hast nur dieses eine Leben.",
+    "H2: Deine Story ist dein Kapital.",
+    "H2: Dein Körper weiß längst, was du willst.",
+    "H2: Die Entscheidung liegt bei dir.",
+    "H1: Meine größenwahnsinnigen Ziele für die nächsten 5 Jahre",
+    "H1: Lust, mich besser kennenzulernen?"
+  ],
+  "wixApps": [],
+  "forms": [],
+  "links": [
+    {
+      "text": "Kostenfreien Strategie-Infocall buchen",
+      "href": "https://www.katharinaniesche.de/booking-calendar/kostenloser-strategie-infocall"
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "id": "88408d_b3e34bc3c7b04f1ba4b2b1796bd539e6~mv2.png",
+      "original": "https://static.wixstatic.com/media/88408d_b3e34bc3c7b04f1ba4b2b1796bd539e6~mv2.png",
+      "alt": "",
+      "kind": "image",
+      "shownAt": [
+        296,
+        492
+      ]
+    },
+    {
+      "id": "88408d_315f3692204846c2b3178a36a110c4ba~mv2.jpg",
+      "original": "https://static.wixstatic.com/media/88408d_315f3692204846c2b3178a36a110c4ba~mv2.jpg",
+      "alt": "IMG_7838_edited.jpg",
+      "kind": "background",
+      "shownAt": [
+        718,
+        564
+      ]
+    },
+    {
+      "id": "88408d_34c013c7268544309a3875f6864539b3~mv2.jpg",
+      "original": "https://static.wixstatic.com/media/88408d_34c013c7268544309a3875f6864539b3~mv2.jpg",
+      "alt": "IMG_4710_edited_edited.jpg",
+      "kind": "background",
+      "shownAt": [
+        719,
+        498
+      ]
+    },
+    {
+      "id": "88408d_4c793d9541b040458b0856bd7d603897~mv2.jpg",
+      "original": "https://static.wixstatic.com/media/88408d_4c793d9541b040458b0856bd7d603897~mv2.jpg",
+      "alt": "IMG_8095_edited.jpg",
+      "kind": "background",
+      "shownAt": [
+        718,
+        488
+      ]
+    },
+    {
+      "id": "88408d_852953e88c044c9bacd3b49f682fa37b~mv2.jpg",
+      "original": "https://static.wixstatic.com/media/88408d_852953e88c044c9bacd3b49f682fa37b~mv2.jpg",
+      "alt": "IMG_9044.JPG",
+      "kind": "background",
+      "shownAt": [
+        719,
+        631
+      ]
+    },
+    {
+      "id": "88408d_768d337de6cd4ab39ce576be4c90999e~mv2.jpg",
+      "original": "https://static.wixstatic.com/media/88408d_768d337de6cd4ab39ce576be4c90999e~mv2.jpg",
+      "alt": "IMG_7691.JPG",
+      "kind": "background",
+      "shownAt": [
+        431,
+        520
+      ]
+    },
+    {
+      "id": "88408d_66abf046dfe04b7ebf5a5fdfc49c1579~mv2.png",
+      "original": "https://static.wixstatic.com/media/88408d_66abf046dfe04b7ebf5a5fdfc49c1579~mv2.png",
+      "alt": "Design ohne Titel.png",
+      "kind": "image",
+      "shownAt": [
+        272,
+        249
+      ]
+    },
+    {
+      "id": "88408d_380d3c8c30d34bf28b949087d17aebbe~mv2.png",
+      "original": "https://static.wixstatic.com/media/88408d_380d3c8c30d34bf28b949087d17aebbe~mv2.png",
+      "alt": "Design ohne Titel-2.png",
+      "kind": "image",
+      "shownAt": [
+        253,
+        228
+      ]
+    },
+    {
+      "id": "88408d_5e39c3a6e2bd4dbc895cd49eb775785d~mv2.png",
+      "original": "https://static.wixstatic.com/media/88408d_5e39c3a6e2bd4dbc895cd49eb775785d~mv2.png",
+      "alt": "Design ohne Titel-3.png",
+      "kind": "image",
+      "shownAt": [
+        267,
+        244
+      ]
+    }
+  ],
+  "jsonLd": [],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}

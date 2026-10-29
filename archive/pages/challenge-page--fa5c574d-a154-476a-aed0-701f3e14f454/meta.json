@@ -1,0 +1,135 @@
+{
+  "path": "/challenge-page/fa5c574d-a154-476a-aed0-701f3e14f454",
+  "url": "https://www.katharinaniesche.de/challenge-page/fa5c574d-a154-476a-aed0-701f3e14f454",
+  "slug": "challenge-page--fa5c574d-a154-476a-aed0-701f3e14f454",
+  "keepCandidate": false,
+  "mobileDiffers": true,
+  "capturedAt": "2026-10-29T09:59:07.072Z",
+  "title": "Der Weg zur Selbstverwirklichung: Strategien und Methoden | Katharina Niesche",
+  "description": null,
+  "canonical": "https://www.katharinaniesche.de/challenge-page/fa5c574d-a154-476a-aed0-701f3e14f454",
+  "robots": "index",
+  "og": {
+    "title": "Der Weg zur Selbstverwirklichung: Strategien und Methoden | Katharina Niesche",
+    "description": "In diesem Online-Kurs \"Der Weg zur Selbstverwirklichung: Strategien und Methoden\" lernen die Teilnehmer, wie sie ihre persönlichen und beruflichen",
+    "image": "https://static.wixstatic.com/media/88408d_b8b5b2d27677497db3bace7ebfc12793~mv2.png/v1/fill/w_800,h_600,al_c/88408d_b8b5b2d27677497db3bace7ebfc12793~mv2.png",
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 2569,
+  "headings": [
+    "H1: Der Weg zur Selbstverwirklichung: Strategien und Methoden",
+    "H2: Infos",
+    "H2: Preis",
+    "H2: Teilen"
+  ],
+  "wixApps": [
+    "TPAMultiSection"
+  ],
+  "forms": [],
+  "links": [
+    {
+      "text": "App öffnen",
+      "href": "https://www.katharinaniesche.de/_serverless/challenges-web-serverless/redirect-invite-link?programId=fa5c574d-a154-476a-aed0-701f3e14f454"
+    },
+    {
+      "text": "",
+      "href": "https://facebook.com/sharer/sharer.php?u=https://www.katharinaniesche.de/challenge-page/fa5c574d-a154-476a-aed0-701f3e14f454&quote=Jetzt%20an%20Der%20Weg%20zur%20Selbstverwirklichung:%20Strategien%20und%20Methoden%20teilnehmen!"
+    },
+    {
+      "text": "",
+      "href": "https://x.com/intent/post?text=Jetzt%20an%20Der%20Weg%20zur%20Selbstverwirklichung:%20Strategien%20und%20Methoden%20teilnehmen!&url=https://www.katharinaniesche.de/challenge-page/fa5c574d-a154-476a-aed0-701f3e14f454"
+    },
+    {
+      "text": "",
+      "href": "https://www.linkedin.com/sharing/share-offsite/?url=https://www.katharinaniesche.de/challenge-page/fa5c574d-a154-476a-aed0-701f3e14f454"
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "id": "88408d_b8b5b2d27677497db3bace7ebfc12793~mv2.png",
+      "original": "https://static.wixstatic.com/media/88408d_b8b5b2d27677497db3bace7ebfc12793~mv2.png",
+      "alt": "",
+      "kind": "background",
+      "shownAt": [
+        980,
+        500
+      ]
+    }
+  ],
+  "jsonLd": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "height": "600",
+      "width": "800",
+      "contentUrl": "https://static.wixstatic.com/media/88408d_b8b5b2d27677497db3bace7ebfc12793~mv2.png/v1/fill/w_800,h_600,al_c/88408d_b8b5b2d27677497db3bace7ebfc12793~mv2.png",
+      "url": "https://static.wixstatic.com/media/88408d_b8b5b2d27677497db3bace7ebfc12793~mv2.png/v1/fill/w_800,h_600,al_c/88408d_b8b5b2d27677497db3bace7ebfc12793~mv2.png"
+    }
+  ],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}

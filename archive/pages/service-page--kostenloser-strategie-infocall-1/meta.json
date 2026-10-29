@@ -1,0 +1,135 @@
+{
+  "path": "/service-page/kostenloser-strategie-infocall-1",
+  "url": "https://www.katharinaniesche.de/service-page/kostenloser-strategie-infocall-1",
+  "slug": "service-page--kostenloser-strategie-infocall-1",
+  "keepCandidate": true,
+  "mobileDiffers": false,
+  "capturedAt": "2026-10-29T10:00:50.946Z",
+  "title": "Kostenloser Strategie-Infocall | Katharina Niesche",
+  "description": "Der Call läuft über Zoom, den Link bekommst du mit deiner Buchungsbestätigung. Kein Termin passt? Schreib mir eine DM auf Instagram an @katharinaniesche und wir finden einen.",
+  "canonical": "https://www.katharinaniesche.de/service-page/kostenloser-strategie-infocall-1",
+  "robots": "index",
+  "og": {
+    "title": "Kostenloser Strategie-Infocall | Katharina Niesche",
+    "description": "Der Call läuft über Zoom, den Link bekommst du mit deiner Buchungsbestätigung. Kein Termin passt? Schreib mir eine DM auf Instagram an @katharinaniesche und wir finden einen.",
+    "image": "https://static.wixstatic.com/media/88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg/v1/fit/w_1089,h_936,al_c,q_85/88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg",
+    "type": "website"
+  },
+  "lang": "de",
+  "pageHeight": 1363,
+  "headings": [
+    "H1: Kostenloser Strategie-Infocall",
+    "H2: Beschreibung"
+  ],
+  "wixApps": [
+    "TPAMultiSection"
+  ],
+  "forms": [],
+  "links": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Serviceliste",
+      "href": "https://www.katharinaniesche.de/book-online"
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "id": "88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg",
+      "original": "https://static.wixstatic.com/media/88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg",
+      "alt": "",
+      "kind": "background",
+      "shownAt": [
+        1440,
+        360
+      ]
+    }
+  ],
+  "jsonLd": [
+    [
+      {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "height": 936,
+        "width": 1089,
+        "contentUrl": "https://static.wixstatic.com/media/88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg/v1/fit/w_1089,h_936,al_c,q_85/88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg",
+        "url": "https://static.wixstatic.com/media/88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg/v1/fit/w_1089,h_936,al_c,q_85/88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg"
+      },
+      {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "height": 936,
+        "width": 1089,
+        "contentUrl": "https://static.wixstatic.com/media/88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg/v1/fit/w_1089,h_936,al_c,q_85/88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg",
+        "url": "https://static.wixstatic.com/media/88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg/v1/fit/w_1089,h_936,al_c,q_85/88408d_d102516bf0454fc281d9baec57b94945~mv2.jpg"
+      }
+    ]
+  ],
+  "nav": [
+    {
+      "text": "Startseite",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "1:1 Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Über mich",
+      "href": "https://www.katharinaniesche.de/ueber-mich"
+    },
+    {
+      "text": "Business is Calling",
+      "href": "https://www.katharinaniesche.de/1-1-business-aufbau"
+    },
+    {
+      "text": "Kostenfreier Guide",
+      "href": "https://www.katharinaniesche.de/guide"
+    },
+    {
+      "text": "Veranstaltungen",
+      "href": "https://www.katharinaniesche.de/veranstaltungen"
+    },
+    {
+      "text": "Mein Podcast",
+      "href": "https://www.katharinaniesche.de/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/katharinaniesche?igsh=OGFrM3hwOGwzaDdp&utm_source=qr"
+    },
+    {
+      "text": "Spotify",
+      "href": "https://open.spotify.com/show/3E35kanFLtbwVKBiv0YYSd?si=eF_Rel2xTV6nO6gYCWmuRg&utm_source=copy-link"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://youtube.com/playlist?list=PLFQBzTBUP36nA5aLnrygSxo_1q8OtXiUV&si=EVgfhzfYjqJBB5M0"
+    },
+    {
+      "text": "Datenschutzerklärung",
+      "href": "https://www.katharinaniesche.de/datenschutz"
+    },
+    {
+      "text": "Impressum",
+      "href": "https://www.katharinaniesche.de/impressum"
+    }
+  ]
+}
