@@ -6,7 +6,7 @@
 |---|---|
 | 0 – Grundlagen (Git, Archivordner, Kurzcheck Wix-Dashboard) | ✅ erledigt 29.10.2026 |
 | 1 – Content-Archiv aller Seiten (`archive/`, Inventur in `archive/inventory.md`) | ✅ erledigt 29.10.2026 |
-| 2 – Redesign Startseite + Designsystem (Astro) | offen |
+| 2 – Redesign Startseite + Designsystem (Astro) | in Arbeit: 5 Konzepte in `design/startseite-konzepte/` (29.10.2026), Auswahl offen |
 | 3 – Inhaltsseiten | offen |
 | 4 – Wix-Anbindung, Guide, Infocall-Buchung | offen |
 | 5 – Launch | offen |
@@ -73,6 +73,7 @@ Dazu `archive/inventory.md`: Seitenliste, Funktionen, Entscheidung (übernehmen 
 Werkzeug: Built-in-Browser (Text, Links, Screenshots) + `curl` für Sitemaps und Bilder – wie bei der Startseite.
 
 ### Phase 2 – Redesign Startseite + Designsystem (Astro)
+- **Zuerst: Konzepte.** 5 Richtungen als statisches HTML in `design/startseite-konzepte/` (Editorial, Scrapbook, Color Blocks, Soft & Hell, Story-Scroll). Vorgaben: Lila Hauptfarbe, Gelb Akzent, neue Zwischentöne erlaubt (Pflaume, Violett, Flieder, Zartlavendel, Butter, Creme), Poppins + Helvetica Neue bleiben. Vorschau: Launch-Konfiguration `konzepte` (Port 5174). Nach der Auswahl (oder Kombination) folgt der Astro-Aufbau.
 - Astro-Projekt unter `web/` als normales Astro-Projekt anlegen (noch ohne Wix; lässt sich laut Wix-Doku später verknüpfen). Lokale Vorschau per Astro-Dev-Server.
 - Startseite gemeinsam überarbeiten (Ansatzpunkte: Kontrast der Podcast-Pills ~1,9:1, gemischte Fließtext-Schriften, kleines Hero-Foto, fehlende/falsche Links).
 - Daraus: `web/src/styles/tokens.css` (Farben, Typo-Skala, Abstände, Radien, Schatten, Animationen), Komponenten in `web/src/components/` (Button, Eyebrow, Section, Card, NoteCard, Testimonial, TornEdge, Marquee, FormField …), Layout `web/src/layouts/Base.astro` (Header, Footer, SEO, Consent).

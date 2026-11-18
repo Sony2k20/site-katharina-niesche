@@ -1,0 +1,192 @@
+/* Impeccable 2 · Rezept: the mentoring as a recipe card and a recipe box, inside the Scrapbook world (Konzept 2) */
+body {
+  background-color: var(--purple); color: var(--white);
+  background-image: radial-gradient(rgba(210, 170, 240, .13) 1.2px, transparent 1.4px);
+  background-size: 26px 26px;
+}
+::selection { background: var(--yellow); color: var(--purple); }
+.container { width: 100%; max-width: 1200px; margin-inline: auto; padding-inline: clamp(16px, 3vw, 32px); }
+section { position: relative; }
+
+h2 { font-weight: 800; font-size: clamp(30px, 4vw, 52px); line-height: 1.1; letter-spacing: -.035em; text-wrap: balance; }
+.section-lead { font-size: 19px; line-height: 1.6; color: var(--lavender-soft); margin-top: 12px; max-width: 48ch; }
+.marker {
+  font-style: italic; color: var(--purple); padding: 0 .18em; margin-inline: -.04em;
+  background: var(--yellow); border-radius: .3em .1em .35em .15em; -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
+
+/* Focus: yellow on the purple ground, purple on paper and on yellow buttons */
+.paper :focus-visible, .btn-yellow:focus-visible, .tabs button:focus-visible { outline-color: var(--purple); }
+
+/* Paper: ragged tape, polaroids, notes, ruled index cards (the Scrapbook world's objects) */
+.taped { position: relative; rotate: var(--r, 0deg); }
+.taped::before {
+  content: ''; position: absolute; z-index: 3; top: -14px; left: 50%; width: 96px; height: 28px; translate: -50% 0; rotate: -3deg;
+  background: rgba(241, 230, 251, .6); box-shadow: 0 1px 2px rgba(0, 0, 0, .12);
+  clip-path: polygon(3% 0, 97% 4%, 100% 50%, 96% 100%, 2% 96%, 0 50%);
+}
+.polaroid { background: var(--white); padding: 12px 12px 40px; box-shadow: 0 10px 28px rgba(0, 0, 0, .35); }
+.polaroid img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.paper { position: relative; isolation: isolate; color: var(--purple); background-color: var(--white); box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 24px 48px -16px rgba(0, 0, 0, .55); }
+.ruled { --line: 34px; --margin: 52px; }
+.ruled::after {
+  content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background:
+    linear-gradient(90deg, transparent var(--margin), rgba(214, 64, 96, .5) var(--margin) calc(var(--margin) + 2px), transparent calc(var(--margin) + 2px)),
+    repeating-linear-gradient(transparent 0 calc(var(--line) - 1px), rgba(90, 42, 133, .16) calc(var(--line) - 1px) var(--line)) 0 18px;
+}
+.note { background: var(--lavender); color: var(--purple); padding: 32px 24px 26px; font: 600 17px/1.5 var(--head); box-shadow: 0 10px 22px rgba(0, 0, 0, .35); }
+.note-butter { background: var(--butter); }
+.torn { position: absolute; left: 0; width: 100%; height: 40px; fill: var(--plum); z-index: 1; pointer-events: none; }
+.torn-top { top: -39px; }
+.torn-bottom { bottom: -39px; transform: scaleY(-1); }
+
+/* Buttons keep the world's offset ink shadow */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 12px 26px;
+  font: 700 17px/1.2 var(--head); text-align: center; border-radius: 99px; border: 2px solid var(--plum);
+  box-shadow: 3px 4px 0 var(--plum); transition: transform .15s cubic-bezier(.16, 1, .3, 1), box-shadow .15s;
+}
+.btn:hover { transform: translate(-2px, -2px); box-shadow: 5px 6px 0 var(--plum); }
+.btn:active { transform: translate(2px, 3px); box-shadow: 1px 1px 0 var(--plum); }
+.btn-yellow { background: var(--yellow); color: var(--purple); }
+.btn-purple { background: var(--purple); color: var(--white); }
+.textlink { font: 700 16px var(--head); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 5px; text-decoration-color: var(--lilac); transition: text-decoration-color .2s; }
+.textlink:hover { text-decoration-color: currentColor; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 50; background: var(--purple); border-bottom: 1px solid rgba(210, 170, 240, .2); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+.logo { font: 800 22px/1 var(--head); letter-spacing: -.03em; }
+.main-nav { display: flex; align-items: center; gap: 6px; }
+.main-nav a { font: 600 15px var(--head); padding: 8px 12px; border-radius: 99px; transition: background-color .15s, color .15s; }
+.main-nav a:hover { background: var(--violet); }
+.main-nav .nav-cta { background: var(--yellow); color: var(--purple); margin-left: 8px; }
+.main-nav .nav-cta:hover { background: var(--white); }
+.main-nav .nav-cta:focus-visible { outline-color: var(--white); }
+
+/* Hero: the recipe card with the polaroid taped over its top right corner */
+.hero { padding: clamp(28px, 4vw, 48px) 0 clamp(96px, 10vw, 128px); }
+.hero-stage { position: relative; max-width: 1000px; }
+.recipe-card { max-width: 780px; rotate: -1deg; padding: 30px clamp(24px, 4vw, 48px) 30px 76px; }
+.recipe-card h1 { font-weight: 800; font-size: clamp(40px, 5.2vw, 70px); line-height: 1.02; letter-spacing: -.045em; margin-bottom: 10px; max-width: 9.5em; }
+.circled { position: relative; display: inline-block; font-style: italic; color: var(--violet); padding: 0 .1em; }
+.circled svg { position: absolute; inset: -14% -6% -18% -6%; width: 112%; height: 132%; overflow: visible; }
+.circled path { fill: none; stroke: var(--yellow); stroke-width: 4; stroke-linecap: round; stroke-dasharray: 700; stroke-dashoffset: 0; }
+.js .circled path { animation: draw 1100ms 300ms cubic-bezier(.16, 1, .3, 1) both; }
+@keyframes draw { from { stroke-dashoffset: 700; } }
+.card-sub { font-size: 17px; line-height: 1.5; max-width: 40ch; }
+.card-facts { display: flex; flex-wrap: wrap; gap: 6px 28px; margin: 16px 0 4px; padding: 10px 0; border-block: 2px solid var(--purple); max-width: 520px; }
+.card-facts dt { font: 600 13px var(--head); color: var(--violet); }
+.card-facts dd { font: 700 16px var(--head); }
+.card-label { font: 800 italic 24px/1 var(--head); letter-spacing: -.01em; margin-top: 16px; }
+.ingredients { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, max-content); column-gap: 40px; margin-top: 6px; }
+.ingredients li { position: relative; padding-left: 24px; font-size: 17px; line-height: var(--line); white-space: nowrap; }
+.ingredients li::before { content: ''; position: absolute; left: 2px; top: calc(var(--line) / 2 - 5px); width: 10px; height: 10px; border-radius: 50%; background: var(--yellow); box-shadow: 0 0 0 2px var(--purple); }
+.card-step { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: 14px; padding: 14px 120px 0 0; border-top: 2px dashed rgba(50, 4, 83, .35); }
+.card-step p { font-size: 16px; line-height: 1.5; max-width: 26ch; }
+.stamp {
+  position: absolute; right: 28px; bottom: 34px; display: grid; place-content: center; text-align: center;
+  width: 96px; height: 96px; border-radius: 50%; border: 3px dashed var(--violet); color: var(--violet); rotate: 12deg;
+  font: 800 40px/.9 var(--head);
+}
+.stamp small { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.hero-photo { position: absolute; z-index: 2; top: -12px; left: 700px; width: 280px; }
+.hero-photo img { aspect-ratio: 552 / 760; object-position: 50% 70%; }
+
+/* Was fehlt: notes on the plum board, between torn edges, varied like a real board */
+.fehlt { background: var(--plum); padding: clamp(80px, 10vw, 112px) 0; }
+.board { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 36px 24px; margin-top: 56px; align-items: start; }
+.n1 { grid-column: 1 / 5; }
+.n2 { grid-column: 5 / 9; margin-top: 36px; }
+.n3 { grid-column: 9 / 12; margin-top: -8px; font-size: 19px; }
+.n4 { grid-column: 3 / 8; margin-top: -12px; }
+.doubt { font: 700 clamp(22px, 2.4vw, 30px)/1.45 var(--head); margin-top: 56px; text-align: center; text-wrap: balance; }
+
+/* Die Köchin: the story card with her polaroid and the tasting note taped across it */
+.koechin { padding: clamp(112px, 12vw, 152px) 0 clamp(80px, 10vw, 120px); }
+.koechin-stage { position: relative; display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); align-items: start; }
+.koechin-card { grid-column: 1; grid-row: 1; padding: 44px clamp(28px, 4vw, 56px) 40px 76px; rotate: .8deg; z-index: 1; }
+.koechin-card h2 { font-size: clamp(26px, 3vw, 38px); color: var(--purple); margin-bottom: 18px; }
+.koechin-card p { font-size: 18px; line-height: var(--line); margin-bottom: var(--line); max-width: 54ch; }
+.koechin-photo { grid-column: 2; grid-row: 1; width: min(320px, 90%); margin: -36px 0 0 -40px; z-index: 2; }
+.koechin-photo img { aspect-ratio: 3 / 4; object-position: 50% 20%; }
+.tasted { grid-column: 1 / 3; grid-row: 2; justify-self: end; width: min(460px, 100%); margin: -48px 40px 0 0; z-index: 3; padding: 36px 32px 28px; }
+.tasted blockquote { font: 700 19px/1.5 var(--head); }
+.tasted figcaption { margin-top: 12px; font: 600 italic 15px var(--head); color: var(--violet); }
+
+/* Rezeptkartei: tabbed, ruled index cards in a box */
+.kartei { padding: clamp(64px, 8vw, 104px) 0 clamp(112px, 12vw, 144px); }
+.box { margin-top: 44px; max-width: 780px; }
+.tabs { display: flex; gap: 6px; padding-left: 24px; }
+.tabs button {
+  border: 0; cursor: pointer; font: 700 15px var(--head); color: var(--purple); background: var(--lavender);
+  padding: 12px 20px 16px; border-radius: 12px 12px 0 0; translate: 0 6px; white-space: nowrap;
+  transition: translate .25s cubic-bezier(.16, 1, .3, 1), background-color .2s;
+}
+.tabs button:hover { translate: 0 0; }
+.tabs button[aria-selected="true"] { background: var(--white); translate: 0 0; }
+.cards { position: relative; }
+.cards::before, .cards::after { content: ''; position: absolute; left: 12px; right: 12px; height: 100%; background: var(--lavender-soft); border-radius: 4px; z-index: -1; }
+.cards::before { top: 10px; rotate: .8deg; opacity: .55; }
+.cards::after { top: 18px; left: 24px; right: 24px; rotate: -.6deg; opacity: .35; }
+.index-card { border-radius: 4px; padding: 40px clamp(24px, 4vw, 52px) 40px 76px; }
+.index-card.is-front { animation: lift 420ms cubic-bezier(.16, 1, .3, 1); }
+@keyframes lift { from { transform: translateY(18px) rotate(.6deg); opacity: .6; } }
+.index-card h3 { font: 800 clamp(22px, 2.4vw, 30px)/1.2 var(--head); letter-spacing: -.03em; margin-bottom: 14px; }
+.method { padding-left: 1.4em; font-size: 17px; line-height: var(--line); }
+.method li::marker { font: 800 17px var(--head); color: var(--violet); }
+.card-note { font: 600 italic 17px/var(--line) var(--head); color: var(--violet); margin: 8px 0 18px; }
+.tasters { list-style: none; padding: 0; display: grid; gap: 18px; }
+.tasters li { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 18px; align-items: center; }
+.tasters img { width: 104px; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 3px; }
+.tasters strong { display: block; font: 700 17px/1.3 var(--head); }
+.tasters span { display: block; font-size: 16px; line-height: 1.5; margin: 2px 0 4px; }
+
+/* Footer */
+.site-footer { position: relative; background: var(--plum); padding: clamp(88px, 10vw, 120px) 0 40px; }
+.footer-card { max-width: 760px; margin: 0 auto; background: var(--lavender); padding: 56px clamp(24px, 5vw, 64px) 48px; text-align: center; }
+.footer-card p { font: 800 clamp(26px, 3.4vw, 42px)/1.15 var(--head); letter-spacing: -.035em; margin-bottom: 28px; text-wrap: balance; }
+.footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 28px; margin-top: 80px; font-size: 15px; color: var(--lavender-soft); }
+.footer-links a:hover { color: var(--yellow); }
+
+@media (max-width: 1100px) {
+  .hero-photo { left: auto; right: 0; width: 230px; }
+}
+@media (max-width: 960px) {
+  .hero-stage { padding-top: 0; }
+  .recipe-card { max-width: none; margin-right: 120px; }
+  .hero-photo { width: 190px; top: -20px; right: -8px; }
+  .board { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .n1, .n2, .n3, .n4 { grid-column: auto; margin-top: 0; }
+  .koechin-stage { grid-template-columns: 1fr; }
+  .koechin-photo { grid-column: 1; grid-row: 1; width: 220px; margin: 0 0 -28px 24px; justify-self: start; }
+  .koechin-card { grid-row: 2; }
+  .tasted { grid-column: 1; grid-row: 3; margin: -24px 12px 0 0; }
+}
+@media (max-width: 760px) {
+  .nav-toggle { display: block; color: var(--white); }
+  .main-nav { display: none; position: absolute; top: 72px; left: 0; right: 0; flex-direction: column; align-items: flex-start; background: var(--purple); padding: 8px 16px 24px; }
+  .main-nav .nav-cta { margin: 8px 0 0; }
+  .nav-open .main-nav { display: flex; }
+  .recipe-card { padding-top: 56px; }
+  .recipe-card { rotate: -.6deg; margin-right: 0; padding: 30px 18px 28px 40px; }
+  .ruled { --margin: 24px; }
+  .hero-photo { position: relative; top: auto; right: auto; display: block; width: 140px; margin: 0 8px -40px auto; padding: 8px 8px 26px; }
+  .ingredients { grid-template-columns: 1fr; }
+  .card-step { padding-right: 0; }
+  .stamp { width: 76px; height: 76px; font-size: 30px; right: 12px; bottom: auto; top: 14px; }
+  .stamp small { font-size: 10px; }
+  .board { grid-template-columns: 1fr; }
+  .koechin-card, .index-card { padding: 32px 18px 28px 40px; }
+  .tabs { padding-left: 8px; }
+  .tabs button { padding: 10px 14px 14px; font-size: 14px; }
+  .tasters li { grid-template-columns: 80px minmax(0, 1fr); }
+  .tasters img { width: 80px; }
+  .btn { width: 100%; padding-inline: 18px; font-size: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .js .circled path { animation: none; }
+  .index-card.is-front { animation: none; }
+  .btn, .tabs button { transition: none; }
+}

@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Startseite – Konzepte vergleichen | Katharina Niesche</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="shared/base.css">
+  <style>
+    body { background: var(--plum); color: var(--white); }
+    ::selection { background: var(--yellow); color: var(--purple); }
+    .wrap { max-width: 1440px; margin: 0 auto; padding: 0 clamp(16px, 3vw, 40px); }
+
+    .top { padding: 48px 0 28px; display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px; }
+    h1 { font-weight: 800; font-size: clamp(30px, 4vw, 48px); line-height: 1.05; letter-spacing: -.04em; }
+    h1 em { color: var(--yellow); }
+    .intro { max-width: 620px; font-size: 16px; line-height: 1.55; color: var(--lavender-soft); margin-top: 12px; }
+
+    /* Toolbar */
+    .bar { position: sticky; top: 0; z-index: 30; background: var(--plum); border-bottom: 1px solid rgba(210, 170, 240, .18); padding-block: 12px; }
+    .bar .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; }
+    .seg { display: inline-flex; background: rgba(255, 255, 255, .07); border-radius: 999px; padding: 4px; }
+    .seg button { border: 0; background: none; color: var(--lavender-soft); font: 600 14px/1 var(--head); padding: 10px 16px; border-radius: 999px; cursor: pointer; transition: background .2s, color .2s; }
+    .seg button:hover { color: var(--white); }
+    .seg button[aria-pressed="true"] { background: var(--yellow); color: var(--purple); }
+    .bar-label { font: 500 13px var(--head); color: var(--lavender); }
+    .bar .spacer { flex: 1; }
+    .compare-btn { border: 0; cursor: pointer; font: 700 14px/1 var(--head); padding: 12px 18px; border-radius: 999px; background: var(--white); color: var(--purple); transition: opacity .2s; }
+    .compare-btn:disabled { opacity: .4; cursor: not-allowed; }
+
+    /* Matrix: rows = themes, columns = rounds */
+    .matrix { padding: 28px 0 80px; }
+    .col-heads, .row { display: grid; grid-template-columns: 150px repeat(var(--cols), 1fr); gap: 16px; }
+    .col-heads { padding-bottom: 12px; }
+    .col-heads div { font: 700 15px var(--head); }
+    .col-heads small { display: block; font: 400 13px/1.4 var(--body); color: var(--lavender); margin-top: 2px; }
+    .row { padding: 20px 0; border-top: 1px solid rgba(210, 170, 240, .15); }
+    .theme { font: 700 18px/1.25 var(--head); letter-spacing: -.01em; padding-top: 4px; }
+    .theme small { display: block; font: 400 13px/1.45 var(--body); color: var(--lavender); margin-top: 6px; }
+
+    .cell { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+    .shot { position: relative; display: block; aspect-ratio: 16 / 10; border-radius: 10px; overflow: hidden; background: var(--purple); outline: 2px solid transparent; outline-offset: 2px; transition: outline-color .2s; }
+    .shot:hover { outline-color: var(--yellow); }
+    .shot iframe { position: absolute; top: 0; left: 0; width: 1440px; height: 900px; border: 0; transform-origin: 0 0; pointer-events: none; }
+    .mobile .shot { aspect-ratio: 390 / 600; max-width: 220px; }
+    .mobile .shot iframe { width: 390px; height: 600px; }
+    .meta { display: flex; align-items: flex-start; gap: 10px; }
+    .meta h3 { font: 600 15px/1.3 var(--head); }
+    .meta p { font-size: 13px; line-height: 1.45; color: var(--lavender-soft); margin-top: 2px; }
+    .pick { flex: none; display: inline-grid; place-items: center; width: 28px; height: 28px; margin-top: 1px; border-radius: 8px; border: 2px solid var(--lavender); background: none; cursor: pointer; color: var(--purple); font: 800 13px/1 var(--head); transition: background .2s, border-color .2s; }
+    .pick:hover { border-color: var(--yellow); }
+    .pick[aria-pressed="true"] { background: var(--yellow); border-color: var(--yellow); }
+    .hidden { display: none !important; }
+
+    /* Side-by-side compare */
+    .compare { padding: 20px 0 40px; }
+    .compare-grid { display: grid; grid-template-columns: repeat(var(--n), 1fr); gap: 16px; }
+    .pane { min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+    .pane-head { display: flex; align-items: center; gap: 10px; }
+    .pane-head select { flex: 1; min-width: 0; font: 600 14px var(--head); color: var(--white); background: var(--purple); border: 1px solid rgba(210, 170, 240, .35); border-radius: 8px; padding: 10px 12px; }
+    .pane-head a { font: 600 13px var(--head); color: var(--yellow); white-space: nowrap; text-decoration: underline; text-underline-offset: 3px; }
+    .frame { position: relative; height: calc(100vh - 170px); min-height: 480px; border-radius: 10px; overflow: hidden; background: var(--white); }
+    .frame iframe { position: absolute; top: 0; left: 0; border: 0; transform-origin: 0 0; }
+    .mobile .frame { max-width: 390px; margin-inline: auto; width: 100%; }
+    .hint { font-size: 13px; color: var(--lavender); margin-top: 12px; }
+
+    .palette { display: flex; flex-wrap: wrap; gap: 8px; padding: 32px 0 64px; border-top: 1px solid rgba(210, 170, 240, .15); }
+    .sw { display: flex; align-items: center; gap: 8px; font: 500 13px var(--head); color: var(--lavender-soft); padding-right: 12px; }
+    .sw i { width: 28px; height: 28px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, .2); }
+
+    @media (max-width: 900px) {
+      .col-heads { display: none; }
+      .row { grid-template-columns: 1fr 1fr; }
+      .theme { grid-column: 1 / -1; }
+      .compare-grid { grid-template-columns: 1fr; }
+      .frame { height: 70vh; }
+    }
+  </style>
+</head>
+<body>
+  <header class="wrap top">
+    <div>
+      <h1>Startseite: <em>11 Konzepte</em> im Vergleich</h1>
+      <p class="intro">Jede Zeile ist ein Theme, jede Spalte eine Runde. Hake bis zu drei Konzepte an und öffne sie nebeneinander. Gleiche Texte und Markenfarben überall, damit nur das Design den Unterschied macht.</p>
+    </div>
+  </header>
+
+  <div class="bar">
+    <div class="wrap">
+      <span class="bar-label">Ansicht</span>
+      <div class="seg" role="group" aria-label="Ansicht">
+        <button type="button" data-view="matrix" aria-pressed="true">Übersicht</button>
+        <button type="button" data-view="compare" aria-pressed="false">Nebeneinander</button>
+      </div>
+      <span class="bar-label">Gerät</span>
+      <div class="seg" role="group" aria-label="Gerät">
+        <button type="button" data-device="desktop" aria-pressed="true">Desktop</button>
+        <button type="button" data-device="mobile" aria-pressed="false">Handy</button>
+      </div>
+      <span class="bar-label filter-label">Runden</span>
+      <div class="seg filter" role="group" aria-label="Runden einblenden">
+        <button type="button" data-round="original" aria-pressed="true">Original</button>
+        <button type="button" data-round="impeccable" aria-pressed="true">Impeccable</button>
+        <button type="button" data-round="final" aria-pressed="true">Final</button>
+      </div>
+      <span class="spacer"></span>
+      <button type="button" class="compare-btn" id="compare-btn" disabled>Auswahl vergleichen (0)</button>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section class="matrix" id="matrix" aria-label="Alle Konzepte"></section>
+    <section class="compare hidden" id="compare" aria-label="Konzepte nebeneinander">
+      <div class="compare-grid" id="compare-grid"></div>
+      <p class="hint">Desktop-Ansichten sind auf die Spaltenbreite verkleinert, scrollen geht direkt im Rahmen.</p>
+    </section>
+
+    <div class="palette" aria-label="Markenfarben">
+      <span class="sw"><i style="background:#320453"></i>Lila</span>
+      <span class="sw"><i style="background:#fbee0f"></i>Gelb</span>
+      <span class="sw"><i style="background:#d2aaf0"></i>Lavendel</span>
+      <span class="sw"><i style="background:#faf9fa"></i>Off-white</span>
+      <span class="sw"><i style="background:#1e0233"></i>Pflaume</span>
+      <span class="sw"><i style="background:#5a2a85"></i>Violett</span>
+      <span class="sw"><i style="background:#9d72c9"></i>Flieder</span>
+      <span class="sw"><i style="background:#f1e6fb"></i>Zartlavendel</span>
+      <span class="sw"><i style="background:#fff7b8"></i>Butter</span>
+      <span class="sw"><i style="background:#fdf8ef"></i>Creme</span>
+    </div>
+  </main>
+
+<script>
+const ROUNDS = [
+  { id: 'original', name: 'Original', note: 'Runde 1, ohne Skills' },
+  { id: 'impeccable', name: 'Impeccable', note: 'Eigene Seitenidee pro Theme' },
+  { id: 'final', name: 'Final', note: 'Ausgearbeitet auf Basis von Konzept 1' },
+];
+const THEMES = [
+  { id: 'editorial', name: 'Editorial', note: 'Magazin-Look, viel Typo' },
+  { id: 'scrapbook', name: 'Scrapbook', note: 'Persönlich, Handgemachtes' },
+  { id: 'blocks', name: 'Color Blocks', note: 'Laut, Vollflächen' },
+  { id: 'soft', name: 'Soft & Hell', note: 'Ruhig, hell, weich' },
+  { id: 'story', name: 'Story-Scroll', note: 'Geführte Reise, gelbe Linie' },
+];
+const CONCEPTS = [
+  { id: '1', round: 'original', theme: 'editorial', path: 'konzept-1-editorial/', title: 'Editorial', desc: 'Riesige Typo, asymmetrisches Raster, helle und dunkle Kapitel.' },
+  { id: '2', round: 'original', theme: 'scrapbook', path: 'konzept-2-scrapbook/', title: 'Scrapbook', desc: 'Klebestreifen, Notizzettel, Polaroids, Marker.' },
+  { id: '3', round: 'original', theme: 'blocks', path: 'konzept-3-color-blocks/', title: 'Color Blocks', desc: 'Vollflächen, Laufbänder, Riesen-Statements.' },
+  { id: '4', round: 'original', theme: 'soft', path: 'konzept-4-soft-hell/', title: 'Soft & Hell', desc: 'Heller Grund, Bögen, weiche Formen.' },
+  { id: '5', round: 'original', theme: 'story', path: 'konzept-5-story-scroll/', title: 'Story-Scroll', desc: 'Von „irgendwann“ bis zum Datum, gelber Faden.' },
+  { id: 'I1', round: 'impeccable', theme: 'editorial', path: 'impeccable-1-leitartikel/', title: 'Leitartikel', desc: 'Die Startseite als Leitartikel mit Initiale und Leserpost, Gelbmarker zeichnet sich ein.' },
+  { id: 'I2', round: 'impeccable', theme: 'scrapbook', path: 'impeccable-2-rezept/', title: 'Rezept', desc: 'Liniertes Rezeptkärtchen mit Zutaten, dazu eine Rezeptkartei mit Reitern.' },
+  { id: 'I3', round: 'impeccable', theme: 'blocks', path: 'impeccable-3-vorher-nachher/', title: 'Vorher/Nachher', desc: 'Ein Schalter „Heute / Ziel“ dreht Hero und vier Farbblöcke um.' },
+  { id: 'I4', round: 'impeccable', theme: 'soft', path: 'impeccable-4-fenster/', title: 'Fenster', desc: 'Angebote als Reihe von Bogenfenstern, das geöffnete wird breit.' },
+  { id: 'F1', round: 'final', theme: 'editorial', path: 'editorial-final/', title: 'Editorial final', desc: 'Katharina im Bogenrahmen, Zeitleiste, Gelb nur für den Infocall, gelber Abschluss.' },
+  { id: 'I5', round: 'impeccable', theme: 'story', path: 'impeccable-5-film/', title: 'Film', desc: 'Drei Akte mit Zeitleiste im Header und einem Abspann als Linkliste.' },
+];
+
+const state = { view: 'matrix', device: 'desktop', rounds: new Set(ROUNDS.map(r => r.id)), picked: [] };
+const load = () => { try { Object.assign(state, JSON.parse(localStorage.getItem('kn-compare-2')) || {}); state.rounds = new Set([...state.rounds].filter(r => ROUNDS.some(x => x.id === r))); if (!state.rounds.size) state.rounds = new Set(ROUNDS.map(r => r.id)); state.picked = state.picked.filter(id => CONCEPTS.some(c => c.id === id)); } catch {} };
+const save = () => { try { localStorage.setItem('kn-compare-2', JSON.stringify({ ...state, rounds: [...state.rounds] })); } catch {} };
+const byId = id => CONCEPTS.find(c => c.id === id);
+const W = () => state.device === 'mobile' ? 390 : 1440;
+
+// Scale every preview iframe to its frame's width
+const scaleAll = () => document.querySelectorAll('.shot, .frame').forEach(box => {
+  const f = box.querySelector('iframe'); if (!f) return;
+  const s = box.clientWidth / W();
+  f.style.width = W() + 'px';
+  f.style.height = (box.clientHeight / s) + 'px';
+  f.style.transform = `scale(${s})`;
+});
+new ResizeObserver(scaleAll).observe(document.body);
+
+function renderMatrix() {
+  const rounds = ROUNDS.filter(r => state.rounds.has(r.id));
+  const el = document.getElementById('matrix');
+  el.style.setProperty('--cols', rounds.length);
+  el.innerHTML = `<div class="col-heads"><div></div>${rounds.map(r => `<div>${r.name}<small>${r.note}</small></div>`).join('')}</div>` +
+    THEMES.map(t => `<div class="row"><div class="theme">${t.name}<small>${t.note}</small></div>${rounds.map(r => {
+      const c = CONCEPTS.find(x => x.theme === t.id && x.round === r.id);
+      if (!c) return '<div class="cell"></div>';
+      const i = state.picked.indexOf(c.id);
+      return `<div class="cell">
+        <a class="shot" href="${c.path}" aria-label="${c.title} öffnen"><iframe src="${c.path}" loading="lazy" tabindex="-1" title="Vorschau ${c.title}"></iframe></a>
+        <div class="meta"><button class="pick" type="button" data-id="${c.id}" aria-pressed="${i > -1}" aria-label="${c.title} zum Vergleich wählen">${i > -1 ? i + 1 : ''}</button>
+          <div><h3>${c.id} · ${c.title}</h3><p>${c.desc}</p></div></div>
+      </div>`; }).join('')}</div>`).join('');
+  scaleAll();
+}
+
+function renderCompare() {
+  const ids = state.picked.length ? state.picked : ['1', 'I1'];
+  const grid = document.getElementById('compare-grid');
+  grid.style.setProperty('--n', ids.length);
+  const options = sel => CONCEPTS.map(c => `<option value="${c.id}"${c.id === sel ? ' selected' : ''}>${c.id} · ${c.title}</option>`).join('');
+  grid.innerHTML = ids.map((id, k) => `<div class="pane"><div class="pane-head">
+      <select data-slot="${k}" aria-label="Konzept in Spalte ${k + 1}">${options(id)}</select>
+      <a href="${byId(id).path}" target="_blank" rel="noopener">Neuer Tab</a></div>
+      <div class="frame"><iframe src="${byId(id).path}" title="${byId(id).title}"></iframe></div></div>`).join('');
+  scaleAll();
+}
+
+function render() {
+  document.body.classList.toggle('mobile', state.device === 'mobile');
+  document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-pressed', b.dataset.view === state.view));
+  document.querySelectorAll('[data-device]').forEach(b => b.setAttribute('aria-pressed', b.dataset.device === state.device));
+  document.querySelectorAll('[data-round]').forEach(b => b.setAttribute('aria-pressed', state.rounds.has(b.dataset.round)));
+  document.querySelectorAll('.filter, .filter-label').forEach(e => e.classList.toggle('hidden', state.view !== 'matrix'));
+  document.getElementById('matrix').classList.toggle('hidden', state.view !== 'matrix');
+  document.getElementById('compare').classList.toggle('hidden', state.view !== 'compare');
+  const btn = document.getElementById('compare-btn');
+  btn.textContent = `Auswahl vergleichen (${state.picked.length})`;
+  btn.disabled = state.picked.length < 2;
+  btn.classList.toggle('hidden', state.view !== 'matrix');
+  state.view === 'matrix' ? renderMatrix() : renderCompare();
+  save();
+}
+
+document.addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  if (b.dataset.view) state.view = b.dataset.view;
+  else if (b.dataset.device) state.device = b.dataset.device;
+  else if (b.dataset.round) {
+    const r = b.dataset.round;
+    if (state.rounds.has(r) && state.rounds.size > 1) state.rounds.delete(r); else state.rounds.add(r);
+  } else if (b.classList.contains('pick')) {
+    const id = b.dataset.id, i = state.picked.indexOf(id);
+    if (i > -1) state.picked.splice(i, 1); else { state.picked.push(id); if (state.picked.length > 3) state.picked.shift(); }
+  } else if (b.id === 'compare-btn') state.view = 'compare';
+  else return;
+  render();
+});
+document.addEventListener('change', e => {
+  const s = e.target.closest('select[data-slot]'); if (!s) return;
+  const ids = state.picked.length ? state.picked : ['1', 'I1'];
+  ids[+s.dataset.slot] = s.value;
+  state.picked = ids;
+  render();
+});
+
+load();
+render();
+</script>
+</body>
+</html>

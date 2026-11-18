@@ -1,0 +1,58 @@
+/* Shared base for all homepage concepts: palette, fonts, reset, motion */
+:root {
+  /* Brand (unchanged) */
+  --purple: #320453;
+  --yellow: #fbee0f;
+  --lavender: #d2aaf0;
+  --white: #faf9fa;
+  --dark: #242323;
+
+  /* New in-between tones */
+  --plum: #1e0233;
+  --violet: #5a2a85;
+  --lilac: #9d72c9;
+  --lavender-soft: #f1e6fb;
+  --butter: #fff7b8;
+  --cream: #fdf8ef;
+
+  --head: 'Poppins', sans-serif;
+  --body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+/* clip (not hidden) so entrance offsets and tilted paper never cause sideways scroll, while sticky still works */
+html, body { overflow-x: clip; }
+body { font-family: var(--body); line-height: 1.5; }
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+ul { padding-left: 1.25em; }
+button { font: inherit; }
+h1, h2, h3, h4 { font-family: var(--head); }
+
+.skip { position: absolute; left: -9999px; }
+.skip:focus { left: 16px; top: 16px; z-index: 999; background: var(--yellow); color: var(--purple); padding: 8px 14px; }
+:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+
+/* Back link to the overview, fixed bottom left */
+.concept-tag {
+  position: fixed; left: 12px; bottom: 12px; z-index: 100;
+  font: 600 12px/1 var(--head); letter-spacing: .04em;
+  background: var(--dark); color: var(--white); padding: 9px 12px; border-radius: 99px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .3); opacity: .85;
+}
+.concept-tag:hover { opacity: 1; }
+
+/* Mobile nav toggle (shared markup: .nav-toggle + .main-nav, body.nav-open) */
+.nav-toggle { display: none; background: none; border: 0; cursor: pointer; padding: 8px; color: inherit; }
+.nav-toggle span { display: block; width: 24px; height: 2px; background: currentColor; margin: 5px 0; }
+
+/* Entrance animations (from the replica: float-in 1200ms / 60px) */
+@keyframes enter-float { from { opacity: 0; translate: var(--enter-x, 0) var(--enter-y, 0); } }
+@media (prefers-reduced-motion: no-preference) {
+  .js .enter-left { --enter-x: -60px; }
+  .js .enter-right { --enter-x: 60px; }
+  .js .enter-up { --enter-y: 60px; }
+  .js .enter { animation: enter-float 1200ms 1ms cubic-bezier(.445, .05, .55, .95) backwards paused; }
+  .js .enter.is-in { animation-play-state: running; }
+}
